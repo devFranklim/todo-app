@@ -67,7 +67,11 @@ header div div {
 
     margin-bottom: 2.5rem;
 }
-
+header button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 header div h1{
     color: #fff;
     text-transform: uppercase;
@@ -87,7 +91,7 @@ header form input {
     outline: none;
     font-size: 0.75rem;
     color: var(--input-color);
-    background:var(--input-bg) ;
+    background:#fff
 }
 header form input::placeholder{
     color: var(--placeholder-color);
